@@ -27,7 +27,7 @@ if test_complex == 'a':
 success_counter = 0
 for test_num in range(len(tests[test_complex][0])):
 
-	if lab1.main(str(tests[test_complex][0][test_num])) == tests[test_complex][1][test_num]:
+	if lab1.main(tests[test_complex][0][test_num]) == tests[test_complex][1][test_num]:
 		result = 'SOLVED'
 		success_counter += 1
 	else:

@@ -8,10 +8,9 @@ def main(strings,letters,space):
 		if sub == None:
 			continue
 		if string == sub.group(0):
-			yield string
+			yield sub.group(0)
 		else:
 			continue
-
 
 if __name__ == '__main__':
 	letters = [i for i in input('enter 3 letters: ')]
