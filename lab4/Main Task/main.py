@@ -30,7 +30,6 @@ def convert_yaml_to_xml(yaml_text):
     xml_text = process_yaml(yaml_lines)  # Start the conversion process
     return xml_text
 
-# Example YAML data
 yaml_data = open('schedule.yaml', 'r').read()
 # Convert YAML to XML
 xml_data = convert_yaml_to_xml(yaml_data)
