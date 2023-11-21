@@ -4,14 +4,14 @@ friday:
       start: 8-20
       end: 9-50
       teacher: "Lapin Ivan Aleksandrovich"
-      location: Kronv
-      room: 1405
+      location: "Kronv"
+      auditory: 2234
     practice:
       start: 10-00
       end: 11-30
       teacher: "Shavrin Andrey Andreevich"
-      location: Kronv
-      room: 2336
+      location: "Kronv"
+      auditory: 2243
       test:
         - Heh
         - heheheh
