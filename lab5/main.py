@@ -29,7 +29,7 @@ with open('data.csv', 'r' , encoding='utf-8') as raw_data:
 		plot.subplot(2, 2, i + 1)
 		seaborn.boxplot(data=frame,palette='husl')
 		plot.title(date[i])
-		plot.legend(columns,loc='best')
+		plot.legend(columns,loc='upper right')
 	plot.subplots_adjust(wspace=0.4, hspace=0.4)
 	plot.show()
 

@@ -1,0 +1,32 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[russian]{babel}
+\usepackage{lipsum}
+\usepackage{sectsty}
+\usepackage{geometry}
+\usepackage{indentfirst}
+\usepackage{multicol}
+\usepackage{amsmath}
+\usepackage{makecell}
+\usepackage{xcolor}
+\usepackage{datetime}
+%\setlength\parindent{1.5em}
+\newdateformat{currentyear}{\THEYEAR}
+
+\geometry{
+	a4paper,
+	total={170mm,257mm},
+	left=10mm,
+	right=10mm,
+	top=20mm,
+	margin=15mm,
+	bottom=11mm,
+}
+
+
+\begin{document}
+\input{titleList}
+\input{article}
+
+
+\end{document}
